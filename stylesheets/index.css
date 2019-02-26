@@ -4,3 +4,61 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    background: rgb(32, 40, 51)
+}
+
+.hero-image,
+.welcome-message {
+    color: #cb2d6f
+}
+
+.nav {
+    float: right;
+}
+
+.top-bar .title-text,
+.top-bar .nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.car-pictures li {
+    display: inline-block;
+}
+
+.car-pictures h1 {
+    text-align: center;
+}
+
+.car-pictures li {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.welcome-message .title-text,
+.welcome-message .h1 {
+    text-align: center;
+}
+.car-pictures .car-row-1,
+.car-pictures .car-row-2,
+.car-pictures .car-row-3 {
+    display: inline-flex;
+}
+
+.porche-spyder img {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.porche-gt2 img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
